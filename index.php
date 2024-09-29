@@ -26,6 +26,7 @@
         <input type="number" id="ano_carro" name="ano_carro" required>
 
         <label for="valor_carro">Valor do Carro (€):</label>
+        <input type="number" id="valor_carro" name="valor_carro" step="0.01" required>
 
         <button type="submit">Enviar Cotação</button>
     
