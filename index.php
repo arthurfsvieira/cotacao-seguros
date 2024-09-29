@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <h1>Solicitar Cotação de Seguto</h1>
+    <h1>Solicitar Cotação de Seguro</h1>
     <form action="process.php" method="POST">
         <label for="nome">Nome Completo:</label>
         <input type="text" id="nome" name="nome_cliente" required>
@@ -26,11 +26,12 @@
         <input type="number" id="ano_carro" name="ano_carro" required>
 
         <label for="valor_carro">Valor do Carro (€):</label>
-        <input type="number" id="valor_carro" name="valor_carro" step="0.01" required>
+        <input type="number" id="valor_carro" name="valor_carro" min="1" step="0.01" required>
 
         <button type="submit">Enviar Cotação</button>
     
     </form>
 
+<script src="js/script.js"></script>
 </body>
 </html>
