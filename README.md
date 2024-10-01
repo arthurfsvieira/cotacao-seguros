@@ -8,5 +8,5 @@ ADD
 IMPROVE
     Reponsive layout
     UX Design
-    Animation
+    Smooth animation
     Visual feedback
