@@ -65,22 +65,28 @@ button:hover {
 
 p {
     color: #28a745;
-    font-size: 18px; /* Tamanho de fonte ajustável */
+    font-size: 18px;
 }
 
-/* Responsividade: Estilos para telas menores que 768px (tablets e celulares) */
+#linkedin {
+    margin-top: 10px;
+    color: #595858;
+    font-size: 12px;
+}
+
+/* Responsive layout */
 @media (max-width: 768px) {
     .container {
         padding: 30px;
-        max-width: 90%; /* Usa 90% da largura disponível na tela */
+        max-width: 90%;
     }
 
     h1 {
-        font-size: 22px; /* Tamanho de fonte ajustado para telas menores */
+        font-size: 22px;
     }
 
     p {
-        font-size: 16px; /* Ajusta o tamanho da fonte para melhorar a leitura */
+        font-size: 16px;
     }
 
     button {
@@ -89,12 +95,12 @@ p {
     }
 }
 
-/* Responsividade: Estilos para telas menores que 480px (celulares pequenos) */
+
 @media (max-width: 425px) {
     .container {
         margin: auto;
         padding: 20px;
-        max-width: 95%; /* Quase toda a tela para celulares */
+        max-width: 95%; 
     }
 
     h1 {
@@ -106,7 +112,7 @@ p {
     }
 
     button {
-        width: 100%; /* Botão ocupa toda a largura da tela */
+        width: 100%;
         padding: 10px;
     }
 }

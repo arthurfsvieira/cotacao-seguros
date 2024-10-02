@@ -32,6 +32,8 @@
     
     </form>
 
+    <a id="linkedin" href="https://www.linkedin.com/in/arthur-vieira-dev/" target="_blank">Arthur Vieira - Software Developer</a>
+
 <script src="js/script.js"></script>
 </body>
 </html>
