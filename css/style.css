@@ -52,3 +52,17 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o conteúdo */
+    width: 100%;
+    max-width: 400px;
+}
+
+p {
+    color: #28a745; /* Estiliza a mensagem de sucesso */
+}

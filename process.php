@@ -18,7 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $stmt->bind_param("ssssii", $nome_cliente, $email_cliente, $telefone_cliente, $modelo_carro, $ano_carro, $valor_carro);
 
     if ($stmt->execute()) {
-        echo "Cotação enviada com sucesso!";
+        header("Location: sucesso.php?email=$email_cliente");
+        exit;
     } else {
         echo "Erro ao enviar cotação: " . $conn->error;
     }
